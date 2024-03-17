@@ -1,0 +1,24 @@
+LOADER:
+  DATASET: 'imagenet'
+  NUM_CLASSES: 1000
+  BATCH_SIZE: 256
+  NUM_WORKERS: 24
+  USE_VAL: True
+  TRANSFORM: "auto_augment_tf"  # "default"
+OPTIM:
+  BASE_LR: 0.1
+  WEIGHT_DECAY: 3.e-5
+  MAX_EPOCH: 120
+  WARMUP_EPOCH: 5
+TRAIN:
+  IM_SIZE: 224
+TEST:
+  IM_SIZE: 224
+POST:
+  DBB_TYPE: 'REP'
+  TEACHER: "efficientnet_b4"
+  PATH: "weights/IMG_repvgg_a1_official.pth"
+  WARMUP: 20
+  ALPHA: 0.1
+  TEMPERATURE: 1.
+NUM_GPUS: 4
