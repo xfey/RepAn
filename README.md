@@ -2,7 +2,7 @@
 
 Anonymous code submission for our paper "RepAn: Enhanced Annealing through Re-parameterization".
 
-This code is implemented with [Pytorch](https://github.com/pytorch/pytorch). We thank every reviewer for their hard work.
+This code is implemented with [Pytorch](https://github.com/pytorch/pytorch).
 
 
 [**Abstract**](#abstract) | [**Requirements**](#requirements) | [**Data Preparation**](#data-preparation) | [**Training**](#training) | [**Pre-trained Weights**](#pre-trained-weights)
